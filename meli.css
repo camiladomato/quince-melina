@@ -1,0 +1,68 @@
+html *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; 
+  }
+.pagina-uno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://i.imgur.com/WuSGnm4.jpg");
+    background-repeat:no-repeat ;
+    background-size:cover;
+ }
+ .mapa-foto{
+   display: flex;
+   flex-direction: column;
+   margin: 1vh;
+   padding: 1vh;
+ }
+
+ @media (max-width: 600px){
+
+ .pagina-uno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://i.imgur.com/WuSGnm4.jpg");
+    background-repeat:no-repeat ;
+    background-size:cover;
+    height: 100vh;
+    text-shadow: 2px 2px 2px black; 
+ }
+ .pagina-dos{
+  background: rgb(63,86,251);
+  background: radial-gradient(circle, rgba(63,86,251,0.6362920168067228) 3%, rgba(169,112,238,0.9108018207282913) 100%);
+  text-shadow: 2px 2px 2px black;
+ }
+
+ .titulo , .subtitulo{
+   color: cornsilk;
+   font-family: 'Gluten', cursive;
+   margin: 1vh;
+   margin-left: 6vh;
+ }
+ .subtitulo{
+   font-size: 2.5vh;
+ }
+ nav{
+   background-color: rgba(0, 0, 0, .5);
+   color: white;
+ }
+ a{
+  text-decoration: none;
+  color: aliceblue;
+  margin: 1vh;
+  font-size: 5vh;  
+ }
+ .espacio{
+   margin-top:70vh ;
+ }
+ .mapa-foto{
+   margin-left: 2.5vh;
+ }
+
+}
+
+
+
